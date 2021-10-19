@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+}  
+.navbar{
+    background-color:  #b2c0b0;
+    padding: 1.5%;
+    width: 100vw;
+    position: fixed;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu {
+    font-family:'nunito';
+    display: flex;
+    justify-content: space-around;
+}
+.a{
+    flex: 1;
+}
+.b{
+    flex: 1;
+}
+.c{
+    flex: 1;
+}
+.d{
+    flex: 5;
+}
+.menu a:hover{
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 4px;
+}
+h1{
+    font-family: 'lobster';
+}
+.quote{
+   background-image: url(banner.jpg);
+   background-position: top center;
+   background-repeat: no-repeat;
+   padding: 20%;
+   padding-bottom: 9.5%;
+}
+.mainquote{
+    font-family: 'lobster';
+    font-size: 562.5%;
+    width: 20%;
+}
+.Subquote{
+    font-family: 'pacifico';
+    font-size: 187.5%;
+}
+.tentacle{
+    position: absolute;
+    right: 10%;
+    top: 10.5%; 
+
+}
+.heading{
+    text-align: right;
+    width: 400px;
+    color: white;
+}
+.int1{
+    background-color: #dedecd;
+    border-top: 2px solid white;
+    padding: 77px 0px 107px 0px;
+    border-bottom: 2px solid white;
+}
+
+.int2{
+    font-family: 'pacifico';
+    color: #666666;
+    text-align: center;
+    font-size: 200%;
+}
+.about{
+    background-color: #eeefe5;
+    padding: 100px 0px 100px 0px ;
+}
+.abt1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+    flex: 1;
+    padding: 2%;
+}
+.abt2{
+    flex: 2;
+    padding: 2%;
+}
+.abt2 h1{
+    color: #d56724;
+    font-size: 65px;
+    line-height: 60px;
+}
+.abt3{
+    color: #888888;
+    font-size: 25px;
+    line-height: 150%;
+    font-family: 'pacifico';
+}
+.skills{
+    border-top: 2px solid white;
+    background-color: #778472;
+    padding: 10px 0px 190px 0px;
+}
+.s1 h1{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+}
+.s2{
+    color: #e6e8bf;
+    line-height: 150%;
+    position: absolute;
+    left: 30%;
+    font-size: 18px;
+    font-family:'nunito' ;
+}
+.contact{
+    padding: 10% 20% 20% 20% ;
+    background-image: url(contactb.jpg);
+    background-position: bottom center;
+}
+.c1{
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+}
+.c2{
+    text-align: center;
+    font-size: 3vw;
+}
+.c2 a{
+    color:#d56724;
+    text-decoration: none;
+}
